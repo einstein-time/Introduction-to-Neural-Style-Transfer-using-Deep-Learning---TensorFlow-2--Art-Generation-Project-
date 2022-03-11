@@ -1,0 +1,28 @@
+This uses deep learning to compose one image in the style of another image. 
+This is known as neural style transfer and the technique is outlined in A Neural Algorithm of Artistic Style.
+
+This demonstrates the original style-transfer algorithm. 
+It optimizes the image content to a particular style. 
+Modern approaches train a model to generate the stylized image directly (similar to cyclegan). 
+This approach is much faster (up to 1000x).
+
+Things to be learnt:
+TensorFlow Hub (https://tfhub.dev/) or 
+how to use a style transfer model with TensorFlow Lite. 
+This project is based on the Neural style transfer using Tensorflow.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

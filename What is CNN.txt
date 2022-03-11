@@ -1,0 +1,30 @@
+What does CNN do?
+System should understand the image.
+
+This requires taking the raw image as input pixels and building an internal representation that converts the raw image pixels into a complex understanding of the features present within the image.
+
+Starting from the network's input layer, the first few layer activations represent low-level features like edges and textures.
+
+As you step through the network, the final few layers represent higher-level features—object parts like wheels or eyes.
+
+Since the CNNs try to understand the images, they are able to generalize well: they’re able to capture the invariances and defining features within classes (e.g. cats vs. dogs) that are agnostic to background noise and other nuisances.
+
+Things we are goung to do:
+We'll access the intermediate layers of the model, to describe the content and style of inout images.
+So, therby we would use the intermediate layer of model to get content and style representatoin of image. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

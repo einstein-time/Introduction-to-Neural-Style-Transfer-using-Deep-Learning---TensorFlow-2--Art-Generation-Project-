@@ -1,0 +1,6 @@
+1. Use pre-trained VGG19 weights, to get large content representation.
+2. Input style image to the network, to get target matrices.
+3. Pass the copy of content image to get it's content and style representation.
+4. Calculate distance of target content from genrated image and calculate corresponding content and style.
+5. Define total loss, with content and style as component.
+6. Use gradient descent to update pixels so that th eabove olss is minimized.
